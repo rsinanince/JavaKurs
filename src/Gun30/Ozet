@@ -1,0 +1,19 @@
+Access Modifiers (Erişim Belirteçleri)
+Public, Private, Protected, Default(bir şey yazılmazsa)
+
+Erişim Alanları
+1 - Class ın içi
+2 - Paketin içi
+3 - Projenin içi
+
+public  : Projenin her tarafından erişilebilir, diğer tüm paketlerden erişilebilir.
+          Kullanılabildiği yerler : Class, metod, field, constructor
+
+default : (friendly) bir belirteç yazılmadığı durumda kullanılır. Sadece bulunduğu paketin içindekiler erişebilir.
+          Kullanılabildiği yerler : Class, metod, field, constructor
+
+private : Sadece Class ın içinden erişilebilir. Başka hiçbir yerden erişilemez.
+          Kullanılabildiği yerler : Field ve method
+
+protected : default gibi çalışır. Tek farkı, bir şekilde diğer paketlerden erişilebilir.
+          Bunu Kalıtım konusunda göreceğiz.
